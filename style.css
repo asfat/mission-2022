@@ -1,9 +1,13 @@
-.allign-half-width {
+.allign-sec {
     display: flex;
 }
 
 h1 {
     font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
 }
 
 div img {
@@ -12,9 +16,10 @@ div img {
 
 .half-width {
     width: 40%;
-    padding-left: 5%;
+    padding-left: 2%;
     padding-top: 5%;
     margin-top: 5px;
+    margin-left: 5%;
 }
 
 .orange-color {
@@ -30,7 +35,27 @@ div img {
 }
 
 .table-border-h1 {
-    border-left: 2px solid;
-    border-image-slice: 1;
+    border-left: 4px solid;
     border-image: linear-gradient(red, tomato);
+    border-image-slice: 1;
+
+}
+
+.mission-2022-h2 {
+    text-align: center;
+}
+
+.mission-box {
+    margin-left: 5%;
+    background-color: rgb(214, 247, 235);
+    border-radius: 5px;
+
+}
+
+.vission-box {
+    background-color: pink;
+}
+
+.goals-box {
+    background-color: rgb(233, 217, 219);
 }
