@@ -1,3 +1,8 @@
+body {
+
+    font-family: 'Poppins', sans-serif;
+}
+
 .allign-sec {
     display: flex;
 }
@@ -10,8 +15,12 @@ h2 {
     font-size: 40px;
 }
 
+h3 {
+    font-size: 30px;
+}
+
 div img {
-    width: 40%;
+    width: 70%;
 }
 
 .half-width {
@@ -20,6 +29,7 @@ div img {
     padding-top: 5%;
     margin-top: 5px;
     margin-left: 5%;
+
 }
 
 .orange-color {
@@ -58,4 +68,25 @@ div img {
 
 .goals-box {
     background-color: rgb(233, 217, 219);
+}
+
+.middle-sec {
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+}
+
+.last-sec {
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+}
+
+.footer-allign {
+    text-align: center;
+    color: white;
+}
+
+.color-footer {
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
